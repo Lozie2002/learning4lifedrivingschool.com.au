@@ -1,0 +1,29 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+body::-webkit-scrollbar {
+  width: 10px; /* width of the entire scrollbar */
+}
+
+body::-webkit-scrollbar-track {
+  background: #707ee4; /* color of the tracking area */
+}
+
+body::-webkit-scrollbar-thumb {
+  background-color: #8591e7; /* color of the scroll thumb */
+  border-radius: 5px; /* roundness of the scroll thumb */
+  border: 0.1px solid #8591e7; /* creates padding around scroll thumb */
+}
+.react-pdf__Page__textContent  {
+ background: transparent !important;
+ display: none !important;
+}
+/* This will ensure the default cursor is used for all elements */
+body {
+  cursor: default; /* Use default cursor */
+}
+
+/* You can customize specific elements if needed */
+.some-class {
+  cursor: pointer; /* For clickable elements */
+}

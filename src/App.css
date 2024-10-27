@@ -1,0 +1,12 @@
+/* Add this to your main CSS file or as inline styles */
+.masonry-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr)); /* Responsive columns */
+    grid-auto-rows: 10px; /* Default row height */
+  }
+  
+  .masonry-item {
+    margin-bottom: 10px;
+    grid-row-end: span 2; /* Span items vertically to create masonry effect */
+  }
+  

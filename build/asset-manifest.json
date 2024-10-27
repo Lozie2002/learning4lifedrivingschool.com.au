@@ -1,0 +1,27 @@
+{
+  "files": {
+    "main.css": "/static/css/main.28e4048c.css",
+    "main.js": "/static/js/main.aca0c0d4.js",
+    "static/media/Map.png": "/static/media/Map.e9207428052cd87d6673.png",
+    "static/media/SideWalkCleaning2After.jpg": "/static/media/SideWalkCleaning2After.70de977757b94469ee48.jpg",
+    "static/media/WindowCleaning.jpg": "/static/media/WindowCleaning.07e095f6c50974c115f5.jpg",
+    "static/media/RoofCleaningNew1.jpg": "/static/media/RoofCleaningNew1.469a10233672ad842972.jpg",
+    "static/media/RoofCleaningNew2.jpg": "/static/media/RoofCleaningNew2.9168a41c803e573f1caf.jpg",
+    "static/media/DrivewayBefore.jpg": "/static/media/DrivewayBefore.3006e6c039bfb2e63283.jpg",
+    "static/media/DrivewayAfter.jpg": "/static/media/DrivewayAfter.495a0ec3675d45bc5c5b.jpg",
+    "static/media/SurfaceCleaning.jpg": "/static/media/SurfaceCleaning.e5bb12cc76dfb1160133.jpg",
+    "static/media/RoofCleaning1.jpg": "/static/media/RoofCleaning1.2e1aae76a4e663407146.jpg",
+    "static/media/RoofCleaning3.jpg": "/static/media/RoofCleaning3.b7a10db4819865d405d1.jpg",
+    "static/media/ExteriorCleaning.jpg": "/static/media/ExteriorCleaning.d2726d44c482b3dd43cb.jpg",
+    "static/media/RoofCleaning2.jpg": "/static/media/RoofCleaning2.0391131143a5f761fbc4.jpg",
+    "static/media/solarPanel.jpg": "/static/media/solarPanel.d67d6e13293e5131df1b.jpg",
+    "static/media/LushCleaningLogo.png": "/static/media/LushCleaningLogo.b9427bd6697e83cc905e.png",
+    "index.html": "/index.html",
+    "main.28e4048c.css.map": "/static/css/main.28e4048c.css.map",
+    "main.aca0c0d4.js.map": "/static/js/main.aca0c0d4.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.28e4048c.css",
+    "static/js/main.aca0c0d4.js"
+  ]
+}
