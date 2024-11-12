@@ -74,4 +74,4 @@ function Interduce() {
     );
 }
 
-export default Interduce;
+export default Reviews;
