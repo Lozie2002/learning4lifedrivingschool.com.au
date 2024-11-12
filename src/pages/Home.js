@@ -5,6 +5,7 @@ import VehicleOptions from "../components/Home/VehicleOptions";
 import Staff from "../components/Home/Staff";
 import Values from "../components/Home/Values";
 import Services from "../components/Home/Services";
+import CustomerReviews from "../components/Home/customerReviews";
 
 function Home() {
   return (
@@ -16,6 +17,7 @@ function Home() {
       <Staff />
       <VehicleOptions />
       <Services />
+      <CustomerReviews />
      
     </div>
   );
