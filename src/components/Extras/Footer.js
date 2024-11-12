@@ -5,58 +5,47 @@ import logo from "../../Images/Learning4lifeLogo.webp"; // Importing the logo im
 
 function Footer() {
   return (
-    <div className="flex flex-col items-center justify-between bg-black text-white px-6 py-4">
-      {/* Flex container for logo, company name, and designer credit */}
-      <div className="flex w-full justify-between items-center mb-2">
-        {/* Left section for logo and company name */}
-        <div className="flex items-center gap-3">
-          <img src={logo} alt="Lush Cleaning Logo" className="w-10 h-10" /> {/* Logo image */}
-          <h1 className="text-2xl font-semibold">Leanring 4 Life Driving School</h1>
-        </div>
-
-        {/* Right section for designer credit */}
-        <p className="text-sm text-right">
-          Designed and Developed by <strong>Aidan Lozell</strong>
-        </p>
+    <footer className="flex flex-col items-center bg-black text-white px-6 py-8">
+      {/* Logo and Slogan Section */}
+      <div className="flex flex-col items-center gap-3 mb-4">
+        <img src={logo} alt="Learning 4 Life Logo" className="w-32 h-auto" />
+        <h1 className="text-lg font-bold tracking-wide">Learning 4 Life Driving School</h1>
+        <p className="text-sm text-gray-400">Driving you from L to P</p>
       </div>
 
-      {/* Slogan under logo and company name */}
-      <p className="text-sm text-gray-400 mb-2 text-left w-full">
-        Driving you from L to P 
-      </p>
-
-      {/* Divider line */}
-      <hr className="border-t border-gray-600 w-full mb-2" />
-
-      {/* Social media links */}
-      <span className="flex items-center justify-center gap-7 mb-2">
-        {/* Instagram Link */}
+      {/* Social Media Links */}
+      <div className="flex items-center gap-6 mb-4">
         <a
           href="https://www.instagram.com/riteshk_007/?igshid=MzNlNGNkZWQ4Mg%3D%3D"
           target="_blank"
           rel="noreferrer"
-          className="text-white transition-transform transform hover:scale-110"
+          className="text-white hover:text-teal-400 transition-transform transform hover:scale-110"
           aria-label="Instagram"
         >
-          <AiFillInstagram size={30} /> {/* Increased icon size */}
+          <AiFillInstagram size={30} />
         </a>
-
-        {/* Facebook Link */}
         <a
           href="https://www.facebook.com/yourfacebookprofile" // Replace with your actual Facebook link
           target="_blank"
           rel="noreferrer"
-          className="text-white transition-transform transform hover:scale-110"
+          className="text-white hover:text-teal-400 transition-transform transform hover:scale-110"
           aria-label="Facebook"
         >
-          <FaFacebook size={30} /> {/* Increased icon size */}
+          <FaFacebook size={30} />
         </a>
-      </span>
+      </div>
 
-      <p className="text-xs text-gray-500 mb-2 text-center w-full">
-        &copy; {new Date().getFullYear()} Lush Cleaning. All rights reserved.
-      </p>
-    </div>
+      {/* Divider Line */}
+      <hr className="border-t border-gray-600 w-full mb-4" />
+
+      {/* Designer Credit and Copyright */}
+      <div className="text-center text-gray-500 text-xs ">
+        <p className="mb-1">
+          Designed and Developed by <strong>Aidan Lozell</strong>
+        </p>
+        <p>&copy; {new Date().getFullYear()} Learning 4 Life Driving School. All rights reserved.</p>
+      </div>
+    </footer>
   );
 }
 
