@@ -10,7 +10,7 @@ function Services() {
       style={{ minHeight: "80vh", padding: "2rem 0" }}
     >
       <div className="flex flex-col items-center text-left w-full max-w-screen-lg px-5">
-        <h1 className="text-6xl font-extrabold tracking-wide text-white text-center w-full mb-10">
+        <h1 className="text-5xl font-extrabold tracking-wide text-white text-center w-full mb-10">
           Services
         </h1>
 

@@ -45,7 +45,7 @@ function Reviews() {
 
     return (
         <div
-            className="flex items-center justify-center w-full bg-gray-200"
+            className="flex items-center justify-center w-full bg-white"
             style={{
                 minHeight: "30vh",
                 paddingBottom: "2rem",
@@ -54,16 +54,16 @@ function Reviews() {
             <div className="flex flex-col items-start justify-start text-center w-full max-w-screen-lg px-5 pt-10">
                 <div className="flex w-full flex-col md:w-[100%]">
                     <div className="pt-10">
-                        <h2 className="text-4xl md:text-5xl font-semibold text-black pb-4">
+                        <h2 className="text-5xl md:text-5xl font-semibold text-black pb-4">
                             Customer Reviews
                         </h2>
 
                         {/* Display only the current review */}
                         <div className="transition-all duration-500 ease-in-out">
-                            <p className="font-poppins text-xl md:text-2xl text-black mt-4">
+                            <p className="font-poppins text-xl md:text-xl text-black mt-4">
                                 "{currentReview.text}"
                             </p>
-                            <p className="font-semibold text-gray-600 mt-2 text-lg md:text-xl">
+                            <p className="font-semibold text-blue-400 mt-2 text-lg md:text-xl">
                                 — {currentReview.author}
                             </p>
                         </div>
