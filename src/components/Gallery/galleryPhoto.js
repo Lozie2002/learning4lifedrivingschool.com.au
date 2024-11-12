@@ -1,31 +1,25 @@
 import React from "react";
+import GalleryPhoto1 from "../../Images/galleryImages/GalleryPhoto1.png";
+import GalleryPhoto2 from "../../Images/galleryImages/GalleryPhoto2.png";
+import GalleryPhoto3 from "../../Images/galleryImages/GalleryPhoto3.png";
+import GalleryPhoto4 from "../../Images/galleryImages/GalleryPhoto4.png";
+import GalleryPhoto5 from "../../Images/galleryImages/GalleryPhoto5.png";
+import GalleryPhoto6 from "../../Images/galleryImages/GalleryPhoto6.png";
+import GalleryPhoto7 from "../../Images/galleryImages/GalleryPhoto7.png";
+import GalleryPhoto8 from "../../Images/galleryImages/GalleryPhoto8.png";
+import GalleryPhoto9 from "../../Images/galleryImages/GalleryPhoto9.png";
 
-import SolarImage from "../../Images/solarPanel.jpg";
-import PressureWashingImage from "../../Images/ExteriorCleaning.jpg";
-import ConcreteSealingImage from "../../Images/SideWalkCleaning2After.jpg";
-import WindowCleaningImage from "../../Images/WindowCleaning.jpg";
-import RoofCleaningImage1 from "../../Images/RoofCleaning1.jpg";
-import RoofCleaningImage2 from "../../Images/RoofCleaning2.jpg";
-import RoofCleaningImage3 from "../../Images/RoofCleaning3.jpg";
-import SurfaceCleaningImage from "../../Images/SurfaceCleaning.jpg";
-import DrivewayCleaningImageBefore from "../../Images/DrivewayBefore.jpg";
-import DrivewayCleaningImageAfter from "../../Images/DrivewayAfter.jpg";
-import RoofCleaningNew1 from "../../Images/RoofCleaningNew1.jpg";
-import RoofCleaningNew2 from "../../Images/RoofCleaningNew2.jpg";
-
+// Array of images with alt text
 const galleryImages = [
-  { src: SolarImage, alt: "Solar Panel Cleaning" },
-  { src: PressureWashingImage, alt: "Pressure Washing" },
-  { src: ConcreteSealingImage, alt: "Concrete Sealing" },
-  { src: WindowCleaningImage, alt: "Window Cleaning" },
-  { src: RoofCleaningImage1, alt: "Roof Cleaning 1" },
-  { src: RoofCleaningImage2, alt: "Roof Cleaning 2" },
-  { src: RoofCleaningImage3, alt: "Roof Cleaning 3" },
-  { src: SurfaceCleaningImage, alt: "Surface Cleaning" },
-  { src: DrivewayCleaningImageBefore, alt: "Driveway Cleaning Before" },
-  { src: DrivewayCleaningImageAfter, alt: "Driveway Cleaning After" },
-  { src: RoofCleaningNew1, alt: "Roof Cleaning New 1" },
-  { src: RoofCleaningNew2, alt: "Roof Cleaning New 2" },
+  { src: GalleryPhoto1, alt: "Gallery Photo 1" },
+  { src: GalleryPhoto2, alt: "Gallery Photo 2" },
+  { src: GalleryPhoto3, alt: "Gallery Photo 3" },
+  { src: GalleryPhoto4, alt: "Gallery Photo 4" },
+  { src: GalleryPhoto5, alt: "Gallery Photo 5" },
+  { src: GalleryPhoto6, alt: "Gallery Photo 6" },
+  { src: GalleryPhoto7, alt: "Gallery Photo 7" },
+  { src: GalleryPhoto8, alt: "Gallery Photo 8" },
+  { src: GalleryPhoto9, alt: "Gallery Photo 9" },
 ];
 
 // Function to shuffle the array
@@ -38,11 +32,11 @@ function GallerySection() {
   const shuffledImages = shuffleArray([...galleryImages]);
 
   return (
-    <div className="flex items-center justify-center w-full bg-white py-0 min-h-screen">
+    <div className=" bg-gradient-to-r from-blue-300 to-blue-200 flex items-center justify-center w-full bg-white py-0 min-h-screen pb-5 pl-5 pr-5 pt-5">
       <div className="flex flex-col items-center justify-center w-full h-full max-w-screen-lg px-0">
         {/* Section Heading */}
-        <h2 className="pb-4 text-5xl font-bold tracking-wide text-black text-center drop-shadow-md">
-          Images From our Recent Jobs
+        <h2 className="pb-4 text-5xl font-bold tracking-wide text-white text-center">
+          Gallery 
         </h2>
 
         {/* Image Gallery */}

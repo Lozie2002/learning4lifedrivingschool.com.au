@@ -1,5 +1,5 @@
 import React from "react";
-import ExteriorCleaning from '../../Images/ExteriorCleaning.jpg';
+import DrivingSchoolImage from '../../Images/Car.webp';
 
 function WhoIM() {
   return (
@@ -9,40 +9,38 @@ function WhoIM() {
         <div className="flex flex-col items-center lg:items-start justify-center w-full lg:w-4/5 max-w-lg lg:max-w-none">
           {/* Heading */}
           <h1 className="text-5xl sm:text-6xl font-bold text-black mb-4 lg:mb-6">
-            About Lush Exterior Cleaning
+            About Learning for Life Driving School
           </h1>
 
           {/* Description */}
           <p className="text-lg sm:text-xl lg:text-2xl font-light text-gray-700 mt-4 leading-relaxed">
-            I'm Lukas Argerakis, the founder and owner of Lush Exterior Cleaning, established in 2022. Driven by a passion for making homes and businesses shine, my journey began after being inspired by window cleaning videos on social media. Today, I offer a range of services, including pressure washing and window cleaning, all designed to enhance the curb appeal of your property. With a strong commitment to quality, attention to detail, and customer satisfaction, I strive to deliver outstanding results every time.
+            I'm [Instructor's Name], the founder and lead instructor of Learning for Life Driving School, established in [Year]. Our mission is to equip students with the skills, confidence, and knowledge necessary to become safe and responsible drivers. Through personalized lessons, we ensure each student learns at their own pace, making the journey to earning a driver’s license both educational and enjoyable.
           </p>
 
           {/* Mission Statement */}
           <h2 className="text-3xl font-semibold text-black mt-8 lg:mt-10">Our Mission</h2>
           <p className="text-lg sm:text-xl lg:text-2xl font-light text-gray-700 mt-4 leading-relaxed">
-            At Lush Exterior Cleaning, our mission is to provide top-notch cleaning services that enhance the beauty and longevity of your property. We believe that a clean exterior not only improves curb appeal but also reflects the pride you take in your home or business.
+            At Learning for Life Driving School, our mission is to foster responsible driving habits that will last a lifetime. We believe that safe driving skills contribute to the well-being of our community and reduce road-related risks.
           </p>
 
           {/* Core Values */}
           <h2 className="text-3xl font-semibold text-black mt-8 lg:mt-10">Core Values</h2>
           <div className="text-lg sm:text-xl lg:text-2xl font-light text-gray-700 mt-4 leading-relaxed space-y-2">
-            <p><strong>Quality:</strong> We strive for excellence in every job, ensuring complete customer satisfaction.</p>
-            <p><strong>Integrity:</strong> We believe in honest communication and transparency with our clients.</p>
-            <p><strong>Innovation:</strong> We stay up to date with the latest cleaning techniques and products to provide the best service possible.</p>
-            <p><strong>Community:</strong> We are dedicated to serving our local community and supporting other small businesses.</p>
+            <p><strong>Safety:</strong> Safety is our top priority, both in and out of the car.</p>
+            <p><strong>Patience:</strong> We approach each lesson with patience and understanding.</p>
+            <p><strong>Excellence:</strong> We strive to provide comprehensive and effective driving instruction.</p>
+            <p><strong>Community:</strong> We are committed to contributing positively to our community by creating safe drivers.</p>
           </div>
         </div>
       </div>
 
       {/* Right Side: Image Section */}
       <div className="w-full lg:w-1/2 flex items-center justify-center mt-8 lg:mt-0 z-20">
-         
         <img
-          src={ExteriorCleaning}
-          alt="Lush Exterior Cleaning"
+          src={DrivingSchoolImage}
+          alt="Learning for Life Driving School"
           className="h-auto max-h-[500px] w-full object-cover rounded-lg shadow-lg"
         />
-        
       </div>
     </div>
   );

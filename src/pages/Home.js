@@ -1,18 +1,25 @@
 import React from "react";
-import Hero from "../components/Home/Hero";
+import Welcome from "../components/Home/WelcomePage";
 import Introduction from "../components/Home/Introduction";
-import Location from "../components/Home/Location";
-import Services from "../components/Home/servicesBasic";
-import Reviews from "../components/Home/reviews";
+import VehicleOptions from "../components/Home/VehicleOptions";
+import Staff from "../components/Home/Staff";
+import Reviews from "../components/Home/Reviews";
+import Values from "../components/Home/Values";
+import Instagram from "../components/Home/Instagram";
+import Services from "../components/Home/Services";
 
 function Home() {
   return (
     <div>
-      <Hero />
+      <Welcome />
       <Introduction />
+      <Values />
+
+      <Staff />
+      <VehicleOptions />
       <Services />
-      <Location />
       <Reviews />
+      <Instagram />
     </div>
   );
 }

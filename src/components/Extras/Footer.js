@@ -1,7 +1,7 @@
 import React from "react";
 import { AiFillInstagram } from "react-icons/ai";
 import { FaFacebook } from "react-icons/fa";
-import logo from "../../Images/LushCleaningLogo.png"; // Importing the logo image
+import logo from "../../Images/Learning4lifeLogo.webp"; // Importing the logo image
 
 function Footer() {
   return (
@@ -11,7 +11,7 @@ function Footer() {
         {/* Left section for logo and company name */}
         <div className="flex items-center gap-3">
           <img src={logo} alt="Lush Cleaning Logo" className="w-10 h-10" /> {/* Logo image */}
-          <h1 className="text-2xl font-semibold">Lush Cleaning</h1>
+          <h1 className="text-2xl font-semibold">Leanring 4 Life Driving School</h1>
         </div>
 
         {/* Right section for designer credit */}
@@ -22,7 +22,7 @@ function Footer() {
 
       {/* Slogan under logo and company name */}
       <p className="text-sm text-gray-400 mb-2 text-left w-full">
-        Your trusted cleaning service
+        Driving you from L to P 
       </p>
 
       {/* Divider line */}
