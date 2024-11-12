@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from "react";
 
-function Interduce() {
+function Reviews() {
     const reviews = [
         {
             rating: 5,
